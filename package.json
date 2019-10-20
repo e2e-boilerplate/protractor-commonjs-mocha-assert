@@ -4,7 +4,6 @@
   "description": "Protractor end-to-end test automation boilerplate project. Using commonjs & jasmine",
   "scripts": {
     "upadte-webderiver": "webdriver-manager update",
-    "upadte-webderiver:to": "webdriver-manager update --chrome.version=77.0.3865.120",
     "test": "protractor protractor.conf.js",
     "lint": "npx eslint --ext .js ./ --fix"
   },
