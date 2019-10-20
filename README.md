@@ -1,5 +1,5 @@
 # Protractor: (commonjs, mocha)
-Protractor end-to-end test automation boilerplate project. Using commonjs &amp; jasmine
+Protractor end-to-end test automation boilerplate project. Using commonjs &amp; mocha
 
 ## Getting Started
     
