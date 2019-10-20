@@ -9,6 +9,6 @@ Protractor end-to-end test automation boilerplate project. Using commonjs &amp; 
     npm run update-webdriver
     npm run test
     
-To update webdriver to a older or newer version of Chrome browser
+To update webdriver to an older or newer version of Chrome browser
     
     npm run upadte-webderiver -- --chrome.version=77.0.3865.120
