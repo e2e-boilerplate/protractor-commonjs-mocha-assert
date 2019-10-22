@@ -1,27 +1,35 @@
 {
-  "name": "protractor-commonjs-jasmine",
+  "name": "protractor-commonjs-mocha",
   "version": "1.0.0",
-  "description": "Protractor end-to-end test automation boilerplate project. Using commonjs & jasmine",
+  "description": "Protractor end-to-end test automation boilerplate project. Using commonjs & mocha",
   "scripts": {
-    "upadte-webderiver": "webdriver-manager update",
-    "test": "protractor protractor.conf.js",
+    "upadte-webderiver": "npx webdriver-manager update",
+    "test": "npx protractor protractor.conf.js",
     "lint": "npx eslint --ext .js ./ --fix"
   },
   "keywords": [
     "protractor",
+    "mocha",
     "boilerplate",
     "example"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Girma Nigusse",
+  "license": "MIT",
   "devDependencies": {
     "eslint": "^6.5.1",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-prettier": "^6.4.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-prettier": "^3.1.1",
+    "husky": "^3.0.9",
     "mocha": "^6.2.1",
     "prettier": "^1.18.2",
+    "pretty-quick": "^2.0.0",
     "protractor": "^5.4.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
   }
 }
