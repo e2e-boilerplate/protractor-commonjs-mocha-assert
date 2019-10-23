@@ -1,4 +1,4 @@
-# Protractor: (commonjs, mocha)
+# Protractor: (commonjs, mocha, assert)
 Protractor end-to-end test automation boilerplate project. Using commonjs, mocha &amp; assert.
 
 ## Getting Started
