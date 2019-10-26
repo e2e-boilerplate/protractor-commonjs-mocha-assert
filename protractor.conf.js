@@ -7,7 +7,6 @@ exports.config = {
   framework: "mocha",
   mochaOpts: {
     reporter: "dot",
-    slow: 3000,
     timeout: 5000
   }
 };

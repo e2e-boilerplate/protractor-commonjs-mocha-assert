@@ -1,7 +1,7 @@
 {
   "name": "protractor-commonjs-mocha-assert",
   "version": "1.0.0",
-  "description": "Protractor end-to-end test automation boilerplate project. Using commonjs, mocha & assert",
+  "description": "Protractor end-to-end test automation boilerplate project. Using commonjs, mocha and assert",
   "scripts": {
     "upadte-webderiver": "npx webdriver-manager update",
     "test": "npx protractor protractor.conf.js",
@@ -9,7 +9,9 @@
   },
   "keywords": [
     "protractor",
+    "commonjs",
     "mocha",
+    "assert",
     "boilerplate",
     "example"
   ],
