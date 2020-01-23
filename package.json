@@ -5,7 +5,8 @@
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
     "upadte-webderiver": "npx webdriver-manager update",
-    "test": "npx protractor protractor.conf.js"
+    "test": "npx protractor protractor.conf.js",
+    "test-ci": "npx protractor protractor-ci.conf.js"
   },
   "keywords": [
     "protractor",
@@ -27,11 +28,13 @@
     "mocha": "7.0.0",
     "prettier": "1.19.1",
     "pretty-quick": "2.0.1",
-    "protractor": "5.4.2"
+    "protractor": "5.4.2",
+    "puppeteer": "^2.0.0"
   },
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
-  }
+  },
+  "dependencies": {}
 }
