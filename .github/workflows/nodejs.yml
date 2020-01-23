@@ -17,7 +17,7 @@ jobs:
           npm ci
         env:
           CI: true
-      - name: LINT, TEST
+      - name: LINT, UPDATE-WEBDRIVER, TEST
         run: |
           npm run lint
           npm run upadte-webderiver
