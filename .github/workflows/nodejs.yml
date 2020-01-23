@@ -1,0 +1,24 @@
+name: Node CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+    - name: INSTALL
+      run: |
+        npm ci
+      env:
+        CI: true
+    - name: LINT, TEST
+      run: |
+        npm run lint
+        npm run test
