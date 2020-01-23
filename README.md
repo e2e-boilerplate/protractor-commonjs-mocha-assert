@@ -1,6 +1,6 @@
 # Protractor: (commonjs, mocha, assert)
 
-[![GitHub Actions status | e2e-boilerplates/protractor-commonjs-mocha-assert](https://github.com/e2e-boilerplates/protractor-commonjs-mocha-assert/workflows/NodeCI/badge.svg)](https://github.com/e2e-boilerplates/protractor-commonjs-mocha-assert/actions?workflow=NodeCI)
+[![GitHub Actions status | e2e-boilerplates/protractor-commonjs-mocha-assert](https://github.com/e2e-boilerplates/protractor-commonjs-mocha-assert/workflows/protractor-commonjs-mocha-assert/badge.svg)](https://github.com/e2e-boilerplates/protractor-commonjs-mocha-assert/actions?workflow=protractor-commonjs-mocha-assert)
 
 Protractor end-to-end test automation boilerplate project. Using commonjs, mocha &amp; assert.
 
