@@ -20,4 +20,5 @@ jobs:
       - name: LINT, TEST
         run: |
           npm run lint
+          npm run upadte-webderiver
           npm run test-ci
