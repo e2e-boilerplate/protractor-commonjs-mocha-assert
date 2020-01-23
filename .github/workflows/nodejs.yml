@@ -1,4 +1,4 @@
-name: NodeCI
+name: protractor-commonjs-mocha-assert
 
 on: [push]
 
