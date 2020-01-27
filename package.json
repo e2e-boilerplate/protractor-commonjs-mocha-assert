@@ -1,7 +1,7 @@
 {
   "name": "protractor-commonjs-mocha-assert",
   "version": "1.0.0",
-  "description": "Protractor end-to-end test automation boilerplate project. Using commonjs, mocha and assert",
+  "description": "Protractor end-to-end test automation boilerplate, using CommonJS, Mocha and Assert",
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
     "upadte-webderiver": "npx webdriver-manager update",
