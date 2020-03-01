@@ -1,28 +1,15 @@
 {
-  "name": "protractor-commonjs-mocha-assert",
-  "version": "1.0.0",
-  "description": "Protractor end-to-end test automation boilerplate, using CommonJS, Mocha and Assert",
-  "scripts": {
-    "lint": "npx eslint --ext .js ./ --fix",
-    "upadte-webderiver": "npx webdriver-manager update",
-    "test": "npx protractor protractor.conf.js",
-    "test-ci": "npx protractor protractor-ci.conf.js"
-  },
-  "keywords": [
-    "protractor",
-    "commonjs",
-    "mocha",
-    "assert",
-    "boilerplate",
-    "example"
-  ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
-  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "2.1.1"
+  },
+  "description": "Protractor end-to-end test automation boilerplate, using CommonJS, Mocha and Assert",
   "devDependencies": {
     "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.0.0",
     "eslint-config-prettier": "6.10.0",
     "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-json": "^2.1.0",
     "eslint-plugin-prettier": "3.1.2",
     "husky": "4.2.3",
     "mocha": "7.0.1",
@@ -35,7 +22,28 @@
       "pre-commit": "pretty-quick --staged"
     }
   },
-  "dependencies": {
-    "puppeteer": "2.1.1"
-  }
+  "keywords": [
+    "assert",
+    "boilerplate",
+    "commonjs",
+    "e2e",
+    "e2e tests",
+    "example",
+    "integration test",
+    "mocha",
+    "protractor"
+  ],
+  "license": "MIT",
+  "name": "protractor-commonjs-mocha-assert",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-boilerplates/protractor-commonjs-mocha-assert.git"
+  },
+  "scripts": {
+    "lint": "npx eslint --ext .js ./ --fix",
+    "upadte-webderiver": "npx webdriver-manager update",
+    "test": "npx protractor protractor.conf.js",
+    "test-ci": "npx protractor protractor-ci.conf.js"
+  },
+  "version": "1.0.0"
 }
