@@ -1,8 +1,6 @@
 {
   "author": "",
-  "dependencies": {
-    "puppeteer": "2.1.1"
-  },
+  "dependencies": {},
   "description": "Protractor end-to-end test automation boilerplate, using CommonJS, Mocha and Assert",
   "devDependencies": {
     "eslint": "6.8.0",
@@ -36,9 +34,8 @@
   },
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
-    "test": "npx protractor protractor.conf.js",
-    "test:ci": "npx protractor protractor-ci.conf.js",
-    "upadte-webderiver": "npx webdriver-manager update"
+    "test": "npx protractor",
+    "update-webdriver": "npx webdriver-manager update"
   },
   "version": "1.0.0"
 }
