@@ -2,7 +2,7 @@ name: protractor-commonjs-mocha-assert
 "on":
   push: null
   schedule:
-    - cron: 40 4 1-31/2 * *
+    - cron: 20 2 1-31/2 * *
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -19,5 +19,7 @@ jobs:
         run: npm run lint --if-present
       - name: Build
         run: npm run build --if-present
+      - name: Updating webdriver
+        run: npm run update-webdriver
       - name: Executing tests
-        run: "npm run test:ci"
+        run: npm run test
