@@ -6,8 +6,12 @@ Protractor end-to-end test automation boilerplate, using Commonjs, Mocha and Ass
 
 ## Getting Started
 
-    	git clone git@github.com:e2e-boilerplate/protractor-commonjs-mocha-assert.git
-    	cd protractor-commonjs-mocha-assert
-    	npm install
-    	npm run update-webdriver
-    	npm run test
+1. git clone git@github.com:e2e-boilerplate/protractor-commonjs-mocha-assert.git
+
+2. cd protractor-commonjs-mocha-assert
+
+3. npm install
+
+4. npm run update-webdriver
+
+5. npm run test
