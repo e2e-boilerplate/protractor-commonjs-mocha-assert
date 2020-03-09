@@ -1,10 +1,10 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "author": "",
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/protractor-commonjs-mocha-assert/issues"
   },
   "dependencies": {},
-  "description": "Protractor end-to-end test automation boilerplate. Using Using Commonjs, Mocha and Assert.",
+  "description": "Protractor end-to-end test automation boilerplate. using Commonjs, Mocha and Assert.",
   "devDependencies": {
     "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.0.0",
@@ -26,12 +26,7 @@
   },
   "keywords": [
     "assert",
-    "boilerplate",
     "commonjs",
-    "e2e",
-    "e2e tests",
-    "example",
-    "integration test",
     "mocha",
     "protractor"
   ],
