@@ -1,4 +1,4 @@
-[![GitHub Actions status | e2e-boilerplate/protractor-commonjs-mocha-assert](https://github.com/e2e-boilerplate/protractor-commonjs-mocha-assert/workflows/protractor-commonjs-mocha-assert/badge.svg)](https://github.com/e2e-boilerplate/protractor-commonjs-mocha-assert/actions?workflow=protractor-commonjs-mocha-assert)
+[![GitHub Actions status | e2e-boilerplate/protractor-commonjs-mocha-assert](https://github.com/e2e-boilerplate/protractor-commonjs-mocha-assert/workflows/protractor-commonjs-mocha-assert/badge.svg)](https://github.com/e2e-boilerplate/protractor-commonjs-mocha-assert/actions?workflow=protractor-commonjs-mocha-assert) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Protractor Boilerplate
 
