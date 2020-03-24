@@ -12,6 +12,6 @@ Protractor end-to-end test automation boilerplate, Using Commonjs, Mocha and Ass
 
 3. npm install
 
-4. npm run update-webdriver
+4. npm run update:webdriver
 
 5. npm run test
