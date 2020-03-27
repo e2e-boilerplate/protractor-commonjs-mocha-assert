@@ -11,7 +11,7 @@ describe("google search", () => {
     const header = element(by.css("h1"));
 
     assert.strictEqual(title, "Sandbox");
-    header.getText().then(h => {
+    header.getText().then((h) => {
       assert.strictEqual(h, "Sandbox");
     });
   });
