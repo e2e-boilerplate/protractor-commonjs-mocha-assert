@@ -1,0 +1,9 @@
+| referrer                                                                                        | count | uniques |
+| :---------------------------------------------------------------------------------------------- | :---- | :------ |
+| /e2e-boilerplate/protractor-commonjs-mocha-assert                                               | 4     | 3       |
+| /e2e-boilerplate/protractor-commonjs-mocha-assert/actions                                       | 3     | 1       |
+| /e2e-boilerplate/protractor-commonjs-mocha-assert/actions/runs/62974131                         | 2     | 1       |
+| /e2e-boilerplate/protractor-commonjs-mocha-assert/network/alert/package-lock.json/minimist/open | 2     | 1       |
+| /e2e-boilerplate/protractor-commonjs-mocha-assert/blob/master/package.json                      | 1     | 1       |
+| /e2e-boilerplate/protractor-commonjs-mocha-assert/pull/40                                       | 1     | 1       |
+| /e2e-boilerplate/protractor-commonjs-mocha-assert/runs/533330788                                | 1     | 1       |
