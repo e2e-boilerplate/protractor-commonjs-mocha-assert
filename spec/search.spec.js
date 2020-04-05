@@ -8,11 +8,9 @@ describe("google search", () => {
 
   it("should be on the sandbox", async () => {
     const title = await browser.getTitle();
-    const header = element(by.css("h1"));
-
     assert.strictEqual(title, "Sandbox");
-    header.getText().then((h) => {
-      assert.strictEqual(h, "Sandbox");
-    });
+
+    const header = await element(by.css("h1")).getText();
+    assert.strictEqual(header, "Sandbox");
   });
 });
