@@ -2,7 +2,7 @@ name: protractor-commonjs-mocha-assert
 'on':
   push: null
   schedule:
-    - cron: 30 8 1-31/2 * *
+    - cron: 59 2 1-31/2 * *
 jobs:
   build:
     runs-on: ubuntu-latest
