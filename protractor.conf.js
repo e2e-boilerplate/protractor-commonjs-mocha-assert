@@ -1,7 +1,7 @@
 
       
 const directConnect = true;
-const specs = ["spec/*.spec.ts"];
+const specs = ["spec/*.spec.js"];
 const framework = "mocha";
 
 const mochaOpts = {
