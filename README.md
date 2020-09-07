@@ -2,7 +2,7 @@
     
 # Protractor Boilerplate
     
-Protractor end-to-end test automation boilerplate, Using [Commonjs](https://requirejs.org/docs/commonjs.html), [Mocha](https://mochajs.org) and [Commonjs](https://nodejs.org/api/assert.html).. Clone or fork this repository.
+Protractor end-to-end test automation boilerplate, Using [Commonjs](https://requirejs.org/docs/commonjs.html), [Mocha](https://mochajs.org) and [Commonjs](https://nodejs.org/api/assert.html). Clone or fork this repository.
     
 ## Getting Started
     
