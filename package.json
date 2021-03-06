@@ -4,7 +4,7 @@
     "url": "https://github.com/e2e-boilerplate/protractor-commonjs-mocha-assert/issues"
   },
   "dependencies": {
-    "mocha": "8.3.0",
+    "mocha": "8.3.1",
     "protractor": "7.0.0"
   },
   "description": "Protractor end-to-end test automation boilerplate. Using Commonjs, Mocha and Assert.",
